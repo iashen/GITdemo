@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+
+double average=160;
+
+int age;
+string name;
+
+cout<<"Please enter your name:";
+cin>>name;
+cout<<"Please enter your age";
+cin>>age;
+
+cout<<"Hi,"<<name;
+if(age>18){
+    cout<<". You are an adult \n";
+}else{
+    cout<<". You are a child \n";
+}
+
+  return 0;
+}
