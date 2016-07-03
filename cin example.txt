@@ -13,7 +13,7 @@ string name;
 
 cout<<"Please enter your name:";
 cin>>name;
-cout<<"Please enter your age";
+cout<<"Please enter your age here";
 cin>>age;
 
 cout<<"Hi,"<<name;
@@ -23,5 +23,5 @@ if(age>18){
     cout<<". You are a child \n";
 }
 
-  return 0;
+  return 1;
 }
